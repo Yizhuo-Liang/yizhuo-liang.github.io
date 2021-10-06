@@ -14,7 +14,6 @@ function makeSticky() {
     if(navbar == null) console.info("okay"); 
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky");
-    console.info("????");
   } else {
     navbar.classList.remove("sticky");
   }

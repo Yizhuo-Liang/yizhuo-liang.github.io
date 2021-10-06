@@ -72,8 +72,16 @@
     height: 120px;
     overflow: hidden;
     float: none;
+    z-index: 999;
 }
 
 #navbar li {
     display: inline-block;
+}
+
+#navbar ul {
+    margin: 0;
+    border: 0;
+    padding-left: 10%;
+    width: 80%
 }
