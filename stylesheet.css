@@ -39,6 +39,11 @@ a :hover {
   color: rgb(230, 230, 230);
 }
 
+ul {
+  list-style: none;
+  display: inline-block;
+}
+
 .h {
   font-family: "Ubuntu Bold";
   line-height: 2;
@@ -78,13 +83,33 @@ a :hover {
   border-radius: 40px;
   position: relative;
   border: 0;
-  margin: 5%;
   margin-left: 0;
   box-shadow: 25px 25px 50px rgb(0, 0, 0, 0.2);
-  padding: 5%;
+  padding: 10%;
   display: inline-block;
   background-color: white;
   vertical-align: top;
+}
+
+.wrapper {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5%;
+  row-gap: 8%;
+  grid-auto-flow: row;
+}
+.one {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+.two {
+  grid-column: 3 / 6;
+  grid-row: 1;
+}
+.three {
+  grid-column: 3 / 6;
+  grid-row: 2;
 }
 
 #navbar {
