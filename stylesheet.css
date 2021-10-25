@@ -89,6 +89,7 @@ ul {
   display: inline-block;
   background-color: white;
   vertical-align: top;
+  transition: 0.3s;
 }
 
 .grid:hover {
