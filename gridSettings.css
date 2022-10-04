@@ -1,7 +1,7 @@
 .wrapper {
     display: grid;
     margin-top: 30px;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 5%;
     row-gap: 8%;
     grid-auto-flow: row;
@@ -12,17 +12,21 @@
 }
 .two {
     grid-column: 3 / 5;
-    grid-row: 1;
+    grid-row: 2;
 }
 .three {
-    grid-column: 3 / 6;
+    grid-column: 5 / 7;
     grid-row: 2;
 }
 .four {
-    grid-column: 6 / 8;
+    grid-column: 7 / 9;
     grid-row: 2;
 }
 .five {
-    grid-column: 5 / 8;
+    grid-column: 6 / 9;
+    grid-row: 1;
+}
+.six {
+    grid-column: 3 / 6;
     grid-row: 1;
 }
