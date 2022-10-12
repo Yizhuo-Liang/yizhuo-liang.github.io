@@ -96,6 +96,13 @@ ul {
   box-shadow: 25px 25px 50px rgb(0, 0, 0, 0.32);
 }
 
+.logo {
+  object-fit: scale-down;
+  width: 40%;
+  max-height: 40%;
+  filter: invert(1);
+}
+
 #navbar {
   height: 120px;
   position: sticky;
